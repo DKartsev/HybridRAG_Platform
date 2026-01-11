@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd /workspaces/HybridRAG_Platform && python3 -c \"import json; f = json\\.load\\(open\\('HybridRAG_Platform\\.ipynb'\\)\\); print\\(json\\.dumps\\(f\\.get\\('metadata', \\{\\}\\), indent=2\\)\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
